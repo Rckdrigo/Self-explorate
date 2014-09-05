@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="epura2" size="627.000000 852.000000" />
+    <ImageTarget name="epura1" size="703.000000 653.000000" />
+    <ImageTarget name="gatorade2" size="473.000000 765.000000" />
+    <ImageTarget name="gatorade1" size="710.000000 697.000000" />
+    <ImageTarget name="lipton1" size="698.000000 683.000000" />
+    <ImageTarget name="lipton2" size="471.000000 865.000000" />
+  </Tracking>
+</QCARConfig>
