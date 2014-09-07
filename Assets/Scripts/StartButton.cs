@@ -2,11 +2,14 @@
 using System.Collections;
 
 public class StartButton : MonoBehaviour {
-    public GameObject aRCam, imgTarget;
+    public GameObject[] steps;
 
     void OnMouseDown()
     {
         transform.parent.gameObject.SetActive(false);
+        foreach (GameObject step in steps)
+            step.GetComponent<StepChanger>().changeable = true;
     }
+
 
 }
