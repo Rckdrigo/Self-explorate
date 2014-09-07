@@ -11,7 +11,11 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Rckdrigo
+<<<<<<< HEAD
   productName: "AUTOEXPL\xD3RATE E-PURA/GATORADE/LIPTON"
+=======
+  productName: AUTOEXPLORATE
+>>>>>>> master
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -65,7 +69,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.Rckdrigo.CancerMama
+  iPhoneBundleIdentifier: com.Rckdrigo.Autoexplorate
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: e5818064784a27b41a1347b4ee5a4da0
