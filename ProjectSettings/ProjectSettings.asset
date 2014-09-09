@@ -11,11 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Rckdrigo
-<<<<<<< HEAD
-  productName: "AUTOEXPL\xD3RATE E-PURA/GATORADE/LIPTON"
-=======
   productName: AUTOEXPLORATE
->>>>>>> master
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -69,13 +65,13 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.Rckdrigo.Autoexplorate
+  iPhoneBundleIdentifier: com.Company.ProductName
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
-  productGUID: e5818064784a27b41a1347b4ee5a4da0
+  productGUID: 4bf37743f5df00e4a873267611b90ff5
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 17
+  AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   apiCompatibilityLevel: 2
@@ -108,7 +104,7 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 2eb3b2ac7824ed046b54f22d44e5ad70, type: 3}
+    - m_Icon: {fileID: 2800000, guid: d64252a88010e154e90b2fdef7f172d4, type: 3}
       m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
@@ -154,7 +150,7 @@ PlayerSettings:
   flashStrippingLevel: 2
   spritePackerPolicy: 
   scriptingDefineSymbols: {}
-  metroPackageName: LiptonTea
+  metroPackageName: Autoexplorate
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
@@ -165,7 +161,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: LiptonTea
+  metroApplicationDescription: Autoexplorate
   metroStoreTileLogo80: 
   metroStoreTileLogo: 
   metroStoreTileLogo140: 
