@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SplashScreen : MonoBehaviour {
 
-    public GameObject aRCam, imgTarget,splash, inicial, boton;
+    public GameObject aRCam, imgTarget;
 
     public void startAR()
     {

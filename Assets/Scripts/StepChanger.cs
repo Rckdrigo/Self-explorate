@@ -21,6 +21,6 @@ public class StepChanger : MonoBehaviour {
     }
 
     void Update() {
-            salir.SetActive(anim.GetCurrentAnimatorStateInfo(0).IsName("Paso7"));
+		salir.SetActive(anim.GetCurrentAnimatorStateInfo(0).IsName("Paso7") & AREvent.onImageTarget);
     }
 }
