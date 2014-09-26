@@ -10,14 +10,14 @@ using System.Collections;
 public class UIScreens : MonoBehaviour {
 	public GameObject[] steps;
     public GameObject aRCam;
+	public GameObject aRButton;
 
 	Animator anim;
 
 	void Start(){
 		anim = GetComponent<Animator> ();
 	}
-
-
+	
     void startAR(){
         aRCam.SetActive(true);
     }
@@ -26,7 +26,6 @@ public class UIScreens : MonoBehaviour {
 		if (Input.GetKey(KeyCode.Escape))
 			Application.Quit ();
 
-		
 		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("NoScreen"))
 			collider.enabled = false;
 	}
@@ -43,9 +42,12 @@ public class UIScreens : MonoBehaviour {
 	}
 
 	void activateSteps(){
+		Invoke ("activateARButton",1.5f);
 		foreach (GameObject step in steps)
 			step.GetComponent<StepChanger>().changeable = true;
 	}
-	
-		
+
+	void activateARButton(){
+		aRButton.SetActive (true);
+	}
 }
