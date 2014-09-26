@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3a344f603afad6419a478d476fed33b
+guid: a576049b598b6bf488196d4401b2b1bd
 TextureImporter:
   fileIDToRecycleName:
     21300000: splash
@@ -41,11 +41,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: Android
-    maxTextureSize: 2048
-    textureFormat: -3
-    compressionQuality: 50
+  buildTargetSettings: []
   spriteSheet:
     sprites: []
   spritePackingTag: 

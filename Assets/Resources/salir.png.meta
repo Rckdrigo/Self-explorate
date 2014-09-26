@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3bdac823a6637840af7837eceba09e2
+guid: 1877b0e09354b01418a8a0b1db99f35f
 TextureImporter:
   fileIDToRecycleName:
     21300000: salir
@@ -41,11 +41,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: Android
-    maxTextureSize: 1024
-    textureFormat: -3
-    compressionQuality: 50
+  buildTargetSettings: []
   spriteSheet:
     sprites: []
   spritePackingTag: 
