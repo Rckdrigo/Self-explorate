@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 46761d74a75b8ca458ccc845ecaaa8f6
+guid: 504ad917560d3e642bff89dcb45fd2da
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Inicial
+    21300000: pantalla1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -41,11 +41,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: Android
-    maxTextureSize: 2048
-    textureFormat: -3
-    compressionQuality: 50
+  buildTargetSettings: []
   spriteSheet:
     sprites: []
   spritePackingTag: 
