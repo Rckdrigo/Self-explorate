@@ -11,7 +11,7 @@ public class StepChanger : MonoBehaviour {
 
     Animator anim;
     public GameObject salir;
-
+    public bool guiButton;
     [HideInInspector()]
     public bool changeable;
 
@@ -27,6 +27,6 @@ public class StepChanger : MonoBehaviour {
     }
 
     void Update() {
-		salir.SetActive((anim.GetCurrentAnimatorStateInfo(0).IsName("Paso7") | !AREvent.onImageTarget) & changeable);
+        salir.SetActive((anim.GetCurrentAnimatorStateInfo(0).IsName("Paso7") | !AREvent.onImageTarget) & changeable & ARController.activeAR);
     }
 }

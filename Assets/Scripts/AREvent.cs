@@ -35,7 +35,7 @@ public class AREvent : MonoBehaviour, ITrackableEventHandler {
 		if (newStatus == TrackableBehaviour.Status.DETECTED ||
 		    newStatus == TrackableBehaviour.Status.TRACKED)
 		{
-			OnTrackingFound();
+            OnTrackingFound();
 		}
 		else
 		{

@@ -38,7 +38,7 @@ public class UIScreens : MonoBehaviour {
 
 	void OnMouseDown(){
 		anim.SetTrigger ("NextScreen");
-		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("Screen3"))
+		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("NoScreen"))
 			activateSteps ();
 	}
 
